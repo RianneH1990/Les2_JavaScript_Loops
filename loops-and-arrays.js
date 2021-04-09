@@ -5,7 +5,6 @@
 // ==========================================
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
-console.log(names);
 for (i = 0; i < names.length; i++) {
     names[i] = names[i] + "je";
 }
@@ -25,7 +24,6 @@ console.log(names);
 // ==========================================
 
 const numbers = [2, 4, 5, 29, 38];
-console.log(numbers);
 for (i = 0; i < numbers.length; i++) {
     numbers[i] = numbers[i] * 3;
 }
@@ -46,7 +44,6 @@ console.log(numbers);
 // ==========================================
 
 const squares = [30, 2, 8, 24, 11];
-console.log(squares);
 for (i = 0; i < squares.length; i++) {
     squares[i] = Math.pow(squares[i], 3);
 }
